@@ -3,5 +3,60 @@ p {
 	color: pink;
 }
 
+header {
+	height: 150px;
+	overflow: hidden;
+	padding-left: 20px;
+	width: 100%;
+	display: table;
+}
+
+#header {
+	vertical-align: middle;
+	display: table-cell;
+}
+
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #243F20;
+	height: 50px;
+	display: table;
+	text-align: center;
+}
+
+footer a {
+	vertical-align: middle;
+	display: table-cell;
+	color: white;
+}
+
+.wrapper {
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+#sidebar {
+	background-color: #3C5B3E;
+	min-width: 250px;
+	max-width: 25%;
+	min-height: 110vh;
+	transition: all 0.3s;
+	padding-left: 20px;
+}
+
+#sidebar a {
+	color: white;
+}
+
+
+
+
+
+
+
 
 /* Note section */

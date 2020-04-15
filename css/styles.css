@@ -1,7 +1,73 @@
+
+}
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+	
+}
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Space Mono'), local('SpaceMono-Regular'), url(https://fonts.gstatic.com/s/spacemono/v1/adVweg3BJhE6r8jYmXseHQzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+body {
+  font-family:'Space Mono';
+  background-position: center top;
+  background-size: cover;
+}
+h1 {
+
+}
+h2{
+	
+}
 p {
 	font-size: 20px;
-	color: pink;
+	color: black;
+	}
+.page-title {
+  text-align: center;
+  font-weight: 160;
+	padding:30px;
+	border: 0;
+	margin:0;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif", "bold";
+	background-color: powderblue;
+	
 }
+.gallery {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.my-class {color:red;background-color:lightblue;
+	border:1px solid blue;
+	text-align:center;
+	padding:0.5em;
+	
+}
+.centerco {
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	
+	
+}
+
 
 
 /* Note section */

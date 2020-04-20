@@ -8,7 +8,6 @@
 @font-face {
   font-family: 'Space Mono';
   font-style: normal;
-	
 
   font-weight: 400;
   src: local('Space Mono'), local('SpaceMono-Regular'), url(https://fonts.gstatic.com/s/spacemono/v1/adVweg3BJhE6r8jYmXseHQzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
@@ -294,21 +293,10 @@ footer a:hover {
 	margin-left: 40px;
 	display: block;
 	margin-bottom: 10px;
-HEAD
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif", "bold";
-
-HEAD
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif", "bold";
 }
 
-HEAD
-.activities {
-	text-align: center;
-}
 
-font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif", "bold";
-
-master
 .activities {
 	text-align: center;
 }
@@ -363,7 +351,6 @@ input[type=submit]:hover {
 
 
 
->>>>>>> af66b2d85b705b6264ce3b0a1ea533162cc997e9
 #sidebar h1 {
 	color: #1c301a;
 	font-size: 25px;
@@ -374,14 +361,7 @@ input[type=submit]:hover {
 	margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
 
-
-
->>>>>>> master
-
-=======
->>>>>>> af66b2d85b705b6264ce3b0a1ea533162cc997e9
 .icon {
 	width: 200px;
 	height: auto;
@@ -403,7 +383,6 @@ h2 {
 	text-align: center;
 }
 
-<<<<<<< HEAD
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column, input[type=submit] {
@@ -448,20 +427,21 @@ h2 {
     padding-left: 20px;
 
   }
+}
 
   .container img {
     margin: auto;
     float: none;
     display: block;
   }
-}
+	
 .checked {
   color: orange;
-=======
+}
+
 .text {
 	padding: 10px;
 	text-align: center;
->>>>>>> master
 }
 
 .price {
@@ -478,4 +458,3 @@ h2 {
 .gallery-pic {
 	margin-top: 20px;
 }
-/* Note section */

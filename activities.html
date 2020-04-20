@@ -20,17 +20,22 @@
   <body>
 <!-- This is the header-->
     <header>
+	  <img src="images/LeafTime_Logo2.jpg" alt="two trees" id="logo2" class="img-fluid">
       <div id="header">
       <h1>LeafTime</h1>
       <p>"Leaf your stress behind"</p>
-      </div>
-      <img src="images/LeafTime_Logo2.jpg" alt="two trees" style="width: auto; height: 150px; max-width:25%; padding: 10px 20px 0px 5px; float: right;">
+ 	  </div>
     </header>
   
 <!-- This is the navigation bar -->
-    <!-- the links are not complete yet -->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">HOME</a>
+    <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
+           
+           <button id="sidebarCollapse" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidebar" aria-controls="#sidebar" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-align-left"></i>
+                <span> <img src="images/LeafTime_logo2.jpg" alt="sidebar"></span>
+            </button>
+		
+		<a class="navbar-brand" href="index.html">HOME</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,23 +43,23 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item dropdown">
-         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         <a class="nav-link dropdown-toggle" href="activities.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Activities </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Forest</a>
-          <a class="dropdown-item" href="#">Beach</a>
-          <a class="dropdown-item" href="#">Mountains</a>
-          <a class="dropdown-item" href="#">Camping</a>
+          <a class="dropdown-item" href="forest.html">Forest</a>
+          <a class="dropdown-item" href="beach.html">Beach</a>
+          <a class="dropdown-item" href="mountains.html">Mountains</a>
+          <a class="dropdown-item" href="camping.html">Camping</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Reviews</a>
+          <a class="dropdown-item" href="reviews.html">Reviews</a>
           </div>
         </li>
         <li class="nav-item">
-         <a class="nav-link" href="#">About Us</a>
+         <a class="nav-link" href="about.html">About Us</a>
         </li>
       </ul>
       <form class="form-inline">
-        <a href="#" class="btn btn-outline-success" role="button" style="margin-right: 30px;">BOOK NOW</a>
+        <a href="booking.html" class="btn btn-outline-success" role="button" style="margin-right: 30px;">BOOK NOW</a>
       </form>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -65,27 +70,34 @@
 
 
 
-    <div class="wrapper">
+    <div class="wrapper" >
 <!-- This is the menu on the left side -->
-        <nav id="sidebar">
+			<div id="sidebar">
+			
+          <img src="images/LeafTime_Logo.jpg" alt="LeafTime logo" class="sidebar-img">
+			<h1> Follow us</h1>
+			<a href="https://www.instagram.com/leaftime_/">
+				<img src="images/instagram-icon.png" alt="instagram logo" class="sidebar-icon">@Leaftime_</a>
+          
+			<a href="https://www.facebook.com/leaftime2020/">
+				<img src="images/facebook-icon.png" alt="facebook logo" class="sidebar-icon">@Leaftime2020</a>
+  
+		<h1> Contact us</h1>
+		  <a href="tel:+31-6254502">
+			  <img src="images/phone-icon.png" alt="phone icon" class="sidebar-icon">625254501</a>
+          <a href="mailto:leaftime@contact.com">
+			  <img src="images/message-icon.png" alt="mail icon" class="sidebar-icon">leaftime@contact.com</a>
+		
+		<h1> April 2020</h1>		
+			<a href="booking.html"><img src="images/calendar.png" alt="calendar" class="sidebar-img2"></a>
+				
+         </div>
 
-          <img src="images/LeafTime_Logo.jpg" alt="LeafTime logo" style="width: 200px; height: auto; padding: 50px 20px 50px 20px; float: center;">
 
-          <ul>
-            <li>
-          <a href="https://www.instagram.com/leaftime_/">Instagram</a>
-            </li>
-            <li>
-          <a href="https://www.facebook.com/leaftime2020/">Facebook</a>
-            </li>
-          </ul>
-
-          <p>+31 625254501</p>
-          <p>leaftime@contact.com</p>
-
-         </nav>
-
-
+<!-- This is the page content -->
+    <div id="content">
+ 
+<!-- This is where you need to put the code of your specific page -->
 <!-- This is the page content for the activities page -->
 
 		
@@ -218,17 +230,25 @@
 	</div>
 </div>
     <!-- this is where the columns end -->
-		
-</div>
+		<!-- this is where the page content ends -->
+
+<!-- This is the end of the section where you need to put your specific code of your page -->
+<!-- The code below you need on every page -->
+        </div> <!-- div from content -->
+        </div> <!-- div from wrapper -->
+
+  
+
+    
+
 <!-- This is the footer -->
     <footer>
-      <a href="#">Disclaimer</a>
-      <a href="#">Advertising</a>
-      <a href="#">Design justifications</a>
+      <a href="disclaimer.html">Disclaimer</a>
+      <a href="advertising.html">Advertising</a>
+      <a href="design.html">Design justifications</a>
     </footer>
 
 
-		
     <!-- Optional JavaScript -->
     <!-- jQuery first, (Popper.js included in Bootstrap JS), then Bootstrap JS -->
     <script src="js/jquery-3.4.1.slim.min.js"></script>

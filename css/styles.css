@@ -34,11 +34,23 @@ h1 {
 h2{
 	
 }
+
+h5 {
+	background-color: white;
+	opacity: 50%;
+	color: black;
+	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+}
+
 p {
 	font-size: 20px;
 	color: black;
 	padding-bottom: 40px;
 	}
+
 .page-title {
   text-align: center;
   font-weight: 160;
@@ -72,21 +84,120 @@ p {
 
 
 header {
-	height: 150px;
 	overflow: hidden;
 	padding-left: 20px;
 	width: 100%;
-	display: table;
+	max-height: 150px;
 }
 
 #header {
 	vertical-align: middle;
-	display: table-cell;
+	padding-top: 35px;
 }
 
+#logo2 {
+	float: right;
+	padding-bottom: 0px;
+	padding-right: 20px;
+	max-height: 140px;
+}
+
+.navbar img {
+	height: 40px;
+	width: auto;
+}
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* CALENDAR STYLE */
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #3C5B3E;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 12px;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
 
 footer {
-	position: fixed;
 	bottom: 0;
 	width: 100%;
 	background-color: #243F20;
@@ -101,23 +212,88 @@ footer a {
 	color: white;
 }
 
+footer a:hover {
+	color: white;
+}
+
 .wrapper {
 	display: flex;
-	width: 100%;
 	align-items: stretch;
+	
 }
+
+.carouselstyle {
+	margin: 30px 0px;
+}
+
+.carousel-inner a {
+	background-color: white;
+	opacity: 80%;
+	color: #243F20;
+	padding: 10px;
+	border-radius: 10px;
+	float: right;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif", "bold";
+	font-weight: bold;
+	border: 1px solid #243F20;
+}
+
+.card {
+	margin-bottom: 20px;
+}
+
+.card a {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
 
 #sidebar {
 	background-color: #3C5B3E;
-	min-width: 250px;
-	max-width: 25%;
-	min-height: 110vh;
+	min-height: 100vh;
 	transition: all 0.3s;
-	padding-left: 20px;
+	min-width: 300px;
+	max-width: 300px;
+}
+
+#sidebar a:hover {
+	color: white;
+}
+
+#sidebar .active {
+	margin-left: -300px;
+}
+
+
+.sidebar-img {
+	width: 220px; 
+	height: auto; 
+	display: block;
+	margin: 30px 40px 0px ;
+} 
+
+.sidebar-img2 {
+	width: 220px; 
+	height: auto; 
+	display: block;
+} 
+
+.sidebar-icon {
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+	margin-bottom: 5px;
 }
 
 #sidebar a {
 	color: white;
+	font-size: 16px;
+	margin-left: 40px;
+	display: block;
+	margin-bottom: 10px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif", "bold";
 }
 .carousel2{
 
@@ -167,6 +343,19 @@ input[type=submit]:hover {
   margin-top: 6px;
   padding: 20px;
 }
+
+
+#sidebar h1 {
+	color: #1c301a;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	display: block;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+
 
 
 

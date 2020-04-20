@@ -1,19 +1,108 @@
-p {
-	font-size: 20px;
-	color: pink;
+
+}
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+	
+}
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Space Mono'), local('SpaceMono-Regular'), url(https://fonts.gstatic.com/s/spacemono/v1/adVweg3BJhE6r8jYmXseHQzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+body {
+  font-family:'Space Mono';
+  background-position: center top;
+  background-size: cover;
+}
+h1 {
+
+}
+h2{
+	
+}
+
+h5 {
+	background-color: white;
+	opacity: 50%;
+	color: black;
+	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+}
+
+p {
+	font-size: 20px;
+	color: black;
+	}
+
+.page-title {
+  text-align: center;
+  font-weight: 160;
+	padding:30px;
+	border: 0;
+	margin:0;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif", "bold";
+	background-color: powderblue;
+	
+}
+.gallery {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.my-class {color:red;background-color:lightblue;
+	border:1px solid blue;
+	text-align:center;
+	padding:0.5em;
+	
+}
+.centerco {
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	
+	
+}
+
+
 header {
-	height: 150px;
 	overflow: hidden;
 	padding-left: 20px;
 	width: 100%;
-	display: table;
+	max-height: 150px;
 }
 
 #header {
 	vertical-align: middle;
-	display: table-cell;
+	padding-top: 35px;
+}
+
+#logo2 {
+	float: right;
+	padding-bottom: 0px;
+	padding-right: 20px;
+	max-height: 140px;
+}
+
+.navbar img {
+	height: 40px;
+	width: auto;
 }
 
 ul {list-style-type: none;}
@@ -107,7 +196,6 @@ body {font-family: Verdana, sans-serif;}
 }
 
 footer {
-	position: fixed;
 	bottom: 0;
 	width: 100%;
 	background-color: #243F20;
@@ -122,24 +210,102 @@ footer a {
 	color: white;
 }
 
+footer a:hover {
+	color: white;
+}
+
 .wrapper {
 	display: flex;
-	width: 100%;
 	align-items: stretch;
+	
 }
+
+.carouselstyle {
+	margin: 30px 0px;
+}
+
+.carousel-inner a {
+	background-color: white;
+	opacity: 80%;
+	color: #243F20;
+	padding: 10px;
+	border-radius: 10px;
+	float: right;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif", "bold";
+	font-weight: bold;
+	border: 1px solid #243F20;
+}
+
+.card {
+	margin-bottom: 20px;
+}
+
+.card a {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
 
 #sidebar {
 	background-color: #3C5B3E;
-	min-width: 250px;
-	max-width: 25%;
-	min-height: 110vh;
+	min-height: 100vh;
 	transition: all 0.3s;
-	padding-left: 20px;
+	min-width: 300px;
+	max-width: 300px;
+}
+
+#sidebar a:hover {
+	color: white;
+}
+
+#sidebar .active {
+	margin-left: -300px;
+}
+
+
+.sidebar-img {
+	width: 220px; 
+	height: auto; 
+	display: block;
+	margin: 30px 40px 0px ;
+} 
+
+.sidebar-img2 {
+	width: 220px; 
+	height: auto; 
+	display: block;
+} 
+
+.sidebar-icon {
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+	margin-bottom: 5px;
 }
 
 #sidebar a {
 	color: white;
+	font-size: 16px;
+	margin-left: 40px;
+	display: block;
+	margin-bottom: 10px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif", "bold";
 }
+
+#sidebar h1 {
+	color: #1c301a;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	display: block;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+
+
 
 
 

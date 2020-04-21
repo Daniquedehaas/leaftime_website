@@ -8,6 +8,7 @@
 @font-face {
   font-family: 'Space Mono';
   font-style: normal;
+
   font-weight: 400;
   src: local('Space Mono'), local('SpaceMono-Regular'), url(https://fonts.gstatic.com/s/spacemono/v1/adVweg3BJhE6r8jYmXseHQzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
@@ -26,7 +27,9 @@ body {
   background-position: center top;
   background-size: cover;
 }
+
 h1 {
+	text-align: center;
 
 }
 h2{
@@ -35,18 +38,27 @@ h2{
 
 h5 {
 	background-color: white;
-	opacity: 50%;
+	opacity: 60%;
 	color: black;
 	font-size: 20px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 7px;
+	padding-bottom: 7px;
 	border-radius: 5px;
 }
 
 p {
 	font-size: 20px;
 	color: black;
+	padding-bottom: 40px;
 	}
+
+a {
+	color: #3C5B3E;
+}
+
+a:hover {
+	color: #243F20;
+}
 
 .page-title {
   text-align: center;
@@ -90,13 +102,14 @@ header {
 #header {
 	vertical-align: middle;
 	padding-top: 35px;
+	float: left;
 }
 
 #logo2 {
 	float: right;
 	padding-bottom: 0px;
 	padding-right: 20px;
-	max-height: 140px;
+	max-height: 150px;
 }
 
 .navbar img {
@@ -226,13 +239,7 @@ footer a:hover {
 .carousel-inner a {
 	background-color: white;
 	opacity: 80%;
-	color: #243F20;
-	padding: 10px;
-	border-radius: 10px;
 	float: right;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif", "bold";
-	font-weight: bold;
-	border: 1px solid #243F20;
 }
 
 .card {
@@ -297,6 +304,55 @@ footer a:hover {
 .activities {
 	text-align: center;
 }
+.carousel2{
+
+	padding-bottom: 40px;
+	padding-top:  40px;
+	padding-right: 90px;
+	padding-left: 90px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-left: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 3px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: bottom;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
 
 
 #sidebar h1 {
@@ -331,6 +387,62 @@ h2 {
 	text-align: center;
 }
 
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/* Style the container with a rounded border, grey background and some padding and margin */
+.container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+/* Clear floats after containers */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.container span {
+  font-size: 20px;
+  margin-right: 0px;
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .container {
+    text-align: center;
+    padding-left: 20px;
+
+  }
+}
+
+  .container img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+	
+.checked {
+  color: orange;
+}
+
 .text {
 	padding: 10px;
 	text-align: center;
@@ -350,4 +462,3 @@ h2 {
 .gallery-pic {
 	margin-top: 20px;
 }
-/* Note section */

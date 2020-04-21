@@ -32,6 +32,7 @@ h1 {
 
 }
 h2{
+	text-align: center;
 	
 }
 
@@ -379,9 +380,7 @@ input[type=submit]:hover {
 	height: 120px;
 }
 
-h2 {
-	text-align: center;
-}
+
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -408,11 +407,7 @@ h2 {
 }
 
 /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
-.container img {
-  float: left;
-  margin-right: 20px;
-  border-radius: 50%;
-}
+
 
 /* Increase the font-size of a span element */
 .container span {

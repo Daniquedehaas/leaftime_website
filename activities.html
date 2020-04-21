@@ -40,19 +40,22 @@
            <span class="navbar-toggler-icon"></span>
         </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item dropdown">
          <a class="nav-link dropdown-toggle" href="activities.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Activities </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		  <a class="dropdown-item" href="activities.html">All activities</a>
+			  <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="forest.html">Forest</a>
           <a class="dropdown-item" href="beach.html">Beach</a>
           <a class="dropdown-item" href="mountains.html">Mountains</a>
           <a class="dropdown-item" href="camping.html">Camping</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="reviews.html">Reviews</a>
           </div>
+        </li>
+		<li class="nav-item">
+         <a class="nav-link" href="reviews.html">Reviews</a>
         </li>
         <li class="nav-item">
          <a class="nav-link" href="about.html">About Us</a>
@@ -84,7 +87,7 @@
   
 		<h1> Contact us</h1>
 		  <a href="tel:+31-6254502">
-			  <img src="images/phone-icon.png" alt="phone icon" class="sidebar-icon">625254501</a>
+			  <img src="images/phone-icon.png" alt="phone icon" class="sidebar-icon">+316 25254501</a>
           <a href="mailto:leaftime@contact.com">
 			  <img src="images/message-icon.png" alt="mail icon" class="sidebar-icon">leaftime@contact.com</a>
 		
@@ -100,9 +103,7 @@
 <!-- This is where you need to put the code of your specific page -->
 <!-- This is the page content for the activities page -->
 
-		
-		
-<div class="container">
+<div class="container-fluid">
 	
 	<div class="row">
 		<h1 class="activities">Activities</h1>
@@ -140,7 +141,15 @@
 			<p class="text">We have three different activities on the camping. Our camping locations are mainly focused on the active activities doing with bigger groups of friends and families. The main goal of this location is having a cozy day that is a distraction from your daily busy life. Time to have some fun!</p>
 		</div>
 		<div class="col-6 col-sm-12 col-lg-6">
-		Review box <!-- Figure out what Jiska uses, and then add that one here -->
+		<div class="card">
+  <img src="images/StockSnap_K3OWLKH0D9.jpg" class="card-img-top" alt="person in nature">
+  <div class="card-body">
+    <h5 class="card-title">Reviews</h5>
+    <p class="card-text">“Never thought I would feel so much relief after listening to the sounds of nature” (5 stars) <br><br>“The staff was very helpful and listens to my questions. However, I expected a little bit more from the forest walk. Overall enjoyed my day” (3 stars) </p>
+    <a href="reviews.html" class="btn btn-outline-success">Read more</a>
+
+		</div>
+		</div>
 		</div>
 			<!-- start of calendar -->
 		<div class="col-6 col-sm-12 col-lg-6">

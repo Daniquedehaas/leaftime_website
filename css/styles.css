@@ -27,6 +27,7 @@ body {
   background-position: center top;
   background-size: cover;
 }
+
 h1 {
 	text-align: center;
 
@@ -38,11 +39,11 @@ h2{
 
 h5 {
 	background-color: white;
-	opacity: 50%;
+	opacity: 60%;
 	color: black;
 	font-size: 20px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 7px;
+	padding-bottom: 7px;
 	border-radius: 5px;
 }
 
@@ -51,6 +52,14 @@ p {
 	color: black;
 	padding-bottom: 40px;
 	}
+
+a {
+	color: #3C5B3E;
+}
+
+a:hover {
+	color: #243F20;
+}
 
 .page-title {
   text-align: center;
@@ -94,13 +103,14 @@ header {
 #header {
 	vertical-align: middle;
 	padding-top: 35px;
+	float: left;
 }
 
 #logo2 {
 	float: right;
 	padding-bottom: 0px;
 	padding-right: 20px;
-	max-height: 140px;
+	max-height: 150px;
 }
 
 .navbar img {
@@ -230,13 +240,7 @@ footer a:hover {
 .carousel-inner a {
 	background-color: white;
 	opacity: 80%;
-	color: #243F20;
-	padding: 10px;
-	border-radius: 10px;
 	float: right;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif", "bold";
-	font-weight: bold;
-	border: 1px solid #243F20;
 }
 
 .card {
@@ -298,9 +302,7 @@ footer a:hover {
 }
 
 
-.activities {
-	text-align: center;
-}
+
 .carousel2{
 
 	padding-bottom: 40px;
@@ -443,12 +445,6 @@ input[type=submit]:hover {
 	text-align: center;
 }
 
-.book-button {
-	margin: 20px;
-	display: block;
-	align-content: center;
-	background-color: #3C5B3E !important;
-}
 
 .gallery-pic {
 	margin-top: 20px;

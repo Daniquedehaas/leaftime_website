@@ -301,9 +301,7 @@ footer a:hover {
 }
 
 
-.activities {
-	text-align: center;
-}
+
 .carousel2{
 
 	padding-bottom: 40px;
@@ -452,12 +450,6 @@ h2 {
 	text-align: center;
 }
 
-.book-button {
-	margin: 20px;
-	display: block;
-	align-content: center;
-	background-color: #3C5B3E !important;
-}
 
 .gallery-pic {
 	margin-top: 20px;

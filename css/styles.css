@@ -242,7 +242,6 @@ footer a:hover {
 .wrapper {
 	display: flex;
 	align-items: stretch;
-	
 }
 
 .carouselstyle {
@@ -253,10 +252,6 @@ footer a:hover {
 	background-color: white;
 	opacity: 80%;
 	float: right;
-}
-
-.carousel-item {
-	height: 500px;
 }
 
 .card {

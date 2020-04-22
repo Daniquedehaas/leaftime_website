@@ -397,6 +397,10 @@ input[type=submit]:hover {
 	height: 130px;
 }
 
+.icon-img {
+	padding-top: 70px;
+}
+
 .forest-h2 {
 	padding-top: 30px;
 }

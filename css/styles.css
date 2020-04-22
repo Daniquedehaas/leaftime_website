@@ -342,7 +342,13 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 3px;
+ 
+ 
 }
+
+
+
+
 
 /* Create two columns that float next to eachother */
 .column {
@@ -372,9 +378,17 @@ input[type=submit]:hover {
 	display: block;
 	align-content: center;
 }
-
+.avatar{
+	image-orientation: 50%;
+	align-content: left;
+	
+}
 .icon-ind {
 	height: 100px;
+}
+.avatar{
+	image-orientation: 50%;
+	align-content: left;
 }
 
 .beach {

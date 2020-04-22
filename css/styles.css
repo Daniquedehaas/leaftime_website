@@ -60,7 +60,7 @@ p {
 	}
 
 a {
-	color: #3C5B3E;
+	color: #243F20;
 }
 
 a:hover {
@@ -313,13 +313,7 @@ footer a:hover {
 
 
 
-.carousel2{
 
-	padding-bottom: 40px;
-	padding-top:  40px;
-	padding-right: 90px;
-	padding-left: 90px;
-}
 * {
   box-sizing: border-box;
 }
@@ -373,7 +367,7 @@ input[type=submit]:hover {
 
 #sidebar h1 {
 	color: #1c301a;
-	font-size: 25px;
+	font-size: 35px;
 	text-align: center;
 	font-weight: bold;
 	display: block;
@@ -397,6 +391,20 @@ input[type=submit]:hover {
 .icon-ind {
 	height: 100px;
 }
+
+.icon-mountain {
+	padding-left: 10px;
+	height: 130px;
+}
+
+.icon-img {
+	padding-top: 70px;
+}
+
+.forest-h2 {
+	padding-top: 30px;
+}
+
 .avatar{
 	image-orientation: 50%;
 	align-content: left;

@@ -391,6 +391,16 @@ input[type=submit]:hover {
 .icon-ind {
 	height: 100px;
 }
+
+.icon-mountain {
+	padding-left: 10px;
+	height: 130px;
+}
+
+.forest-h2 {
+	padding-top: 30px;
+}
+
 .avatar{
 	image-orientation: 50%;
 	align-content: left;

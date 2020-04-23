@@ -385,8 +385,9 @@ input[type=submit]:hover {
 	align-content: center;
 }
 .avatar{
-	image-orientation: 50%;
+	border-radius: 50%;
 	align-content: left;
+	width: 90px;
 	
 }
 .icon-ind {
@@ -427,12 +428,13 @@ input[type=submit]:hover {
 }
 
 /* Style the container with a rounded border, grey background and some padding and margin */
-.container {
+.outline {
   border: 2px solid #ccc;
   background-color: #eee;
   border-radius: 5px;
-  padding: 16px;
-  margin: 16px 0;
+  margin: 16px 10px;
+  padding: 45px;
+  padding-top: 10px;
 }
 
 /* Clear floats after containers */

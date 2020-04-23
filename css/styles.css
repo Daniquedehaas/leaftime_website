@@ -456,7 +456,8 @@ input[type=submit]:hover {
   margin: 16px 10px;
   padding: 45px;
   padding-top: 10px;
-  margin:auto !important;
+  
+	
 }
 
 /* Clear floats after containers */

@@ -133,6 +133,24 @@ header p {
 	width: auto;
 }
 
+
+
+
+.dropdown-item:hover{
+	background-color: #3C5B3E; 
+	color:white;
+}
+
+.dropdown-item:visited{
+	background-color: #3C5B3E; 
+}
+
+
+
+
+
+
+
 ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
 

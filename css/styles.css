@@ -31,6 +31,9 @@ h1 {
 	text-align: center;
 	font-size: 60px;
 	font-family: 'Shadows Into Light', cursive;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 h2{
@@ -323,7 +326,8 @@ footer a:hover {
 input[type=text], select, textarea {
   width: 100%;
   padding: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid;
+  border-color: #243F20;
   margin-top: 6px;
   margin-bottom: 16px;
   margin-left: 16px;
@@ -331,11 +335,10 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
+  background-color: white;
+  color:#45a049 ;
+  padding: 12px 20px
+
 }
 
 input[type=submit]:hover {
@@ -485,3 +488,4 @@ input[type=submit]:hover {
 .gallery-pic {
 	margin-top: 20px;
 }
+

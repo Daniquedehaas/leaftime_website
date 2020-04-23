@@ -450,13 +450,13 @@ input[type=submit]:hover {
 
 /* Style the container with a rounded border, grey background and some padding and margin */
 .outline {
+  padding: 45px;
+  padding-top: 10px;
   border: 2px solid #ccc;
   background-color: #eee;
   border-radius: 5px;
-  margin: 16px 10px;
-  padding: 45px;
-  padding-top: 10px;
-  margin:auto !important;
+  margin-top:20px;
+	
 }
 
 /* Clear floats after containers */
